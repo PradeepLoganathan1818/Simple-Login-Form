@@ -1,0 +1,61 @@
+body{
+    background-color: beige;
+    background-image: url(background-image.jpg);
+    background-size: cover;
+}
+.formcontainer
+{
+    margin: auto;
+    background-color:white;
+    width: 500px;
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:5px 5px 5px 5px black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.input-box
+{
+    width: 350px;
+    height: 35px;
+    border-radius: 4px;
+    margin: 20px;
+    font-size: medium;
+    
+}
+
+input[type="submit"]
+{
+    width: 100px;
+    margin-left: 40%;
+
+} 
+
+input[type="submit"]:hover{
+    opacity: 0.8;
+    transition: 0.9;
+    background-color: green;
+    cursor: pointer;
+}
+
+.forgotpassword,.NewUser
+{
+    text-decoration: none;
+    font-size:larger;
+    margin-left: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
